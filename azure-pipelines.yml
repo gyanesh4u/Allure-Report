@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: "macos-latest"
+  vmImage: macos-latest
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
